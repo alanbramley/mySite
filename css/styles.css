@@ -1,150 +1,81 @@
 body {
-  background-color: #ffffe3;
-  margin:0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather';
+  background-color:#f3f9fb;
 }
 
-hr {
-  border-style: none;
-  border-top-style: d otted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-}
-
-h1{
+h1 {
   margin-top: 0;
+  font-size: 10em;
+  font-family: 'Lobster', Merriweather;
+  color: #ff7bb0;
+  padding-top: 20px;
 }
-
 
 .blog {
-font-family: 'Lobster';
-  text-align: center;
-  font-size: 8rem;
+  background-color: #beeef7;
+}
+
+.intro {
+  font-size: 2em;
+  font-family: 'Macondo+Swash+Caps', Merriweather;
   color: #ff7bb0;
-  width: 50%;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 25px;
+  margin-top: 5px;
+  padding-top: 10px;
 }
 
 .myimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  box-sizing: border-box;
-}
+  border: 1px solid #ccc;
+  width: 300px;
+  max-width: 100%;
+  }
 
-.verse {
-font-family: 'Maiden Orange';
-  font-size: 2rem;
-  color: #f5c7f7;
+.myquote {
   text-align: center;
-  width: 100%;
-  height: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px 15px
+  margin-top: 5px;
+  padding-top: 5px;
+  font-size: 2em;
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  color: #ff7bb0;
 }
 
-.intro p {
-  text-align: center;
-  font-family: 'Macondo Swash Caps';
-  font-size: bold;
-  font-size: 2rem;
-  color: #99e1e5;
-  width: 100%;
-  height: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15 15 0 15px;
+/* aboutme */
+
+.name p{
+  margin-top: 0;
+  font-size: 2em;
+  font-family: 'Lobster', Merriweather;
+  color: #7b88ff;
+  padding-top: 20px;
+
+}
+.lists li {
+  display: inline-block;
+  padding-right: 10px;
 }
 
-.culverimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  border-radius: 50%;
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
 }
 
-.bio p {
-  text-align: center;
-  font-size: 2rem;
-  color: #2f89fc;
-  width: 100%;
-  height: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom:
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
 }
 
-.interests p {
-  font-size: 2.0rem;
-  color: #ff62a5;
-  width: 50%;
-  height: 5px;
-  margin-left: right;
-  padding-bottom: 3px;
-}
-
-.fa-kiss-wink-heart {
-  color: #ff3796;
-  font-size: 40px;
-}
-
-.fas fa-cat{
-  color:black;
-}
-.lists {
-  font-size: 2.0rem;
-  color: #ffc3e7;
-}
-
-#skills {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#skills td, #skills th {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
-
-#skills {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#skills tr:hover {
-  background-color: #ddd;
-  ;
-}
-
-#skills th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #5ca0d3;
-  color: white;
-}
-
-.facebook {
-  text-align: center;
-  font-size: 1.5rem;
-  color: #7572f4;
-  width: 50%;
-  height: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-a:hover {
-  color: red;
-}
-
-a:link {
-  text-decoration: none;
-}
+media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
