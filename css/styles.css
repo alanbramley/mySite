@@ -52,6 +52,7 @@ h1 {
 }
 
 .sandownbay{
+  text-align: center;
   border: 1px solid #ccc;
   width: 700px;
   max-width: 100%;
