@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather';
+  background-color:#f3f9fb;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 10em;
+  font-family: 'Lobster', Merriweather;
+  color: #ff7bb0;
+  padding-top: 20px;
+}
+
+.blog {
+  background-color: #beeef7;
+}
+
+.intro {
+  font-size: 2em;
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  color: #ff7bb0;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+.myimage {
+  border: 1px solid #ccc;
+  width: 300px;
+  max-width: 100%;
+  }
+
+.myquote {
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  font-size: 2em;
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  color: #ff7bb0;
+}
+
+/* aboutme */
+
+.name p{
+  margin-top: 0;
+  font-size: 2em;
+  font-family: 'Lobster', Merriweather;
+  color: #7b88ff;
+  padding-top: 20px;
+
+}
+
+.sandownbay img{
+text-align: center;
+  border: 1px solid #ccc;
+  width: 700px;
+  max-width: 100%;
+}
+
+.lists li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
+/* family gallery */
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
