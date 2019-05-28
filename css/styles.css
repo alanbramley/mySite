@@ -50,6 +50,11 @@ h1 {
   padding-top: 20px;
 
 }
+
+.Sandownbayimage {
+  border: 1px solid #ccc;
+  width: 300px;
+  max-width: 100%;
 .lists li {
   display: inline-block;
   padding-right: 10px;
