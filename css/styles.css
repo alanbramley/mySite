@@ -56,13 +56,56 @@ text-align: center;
   border: 1px solid #ccc;
   width: 700px;
   max-width: 100%;
+border-radius:50%
 }
+
+.interests{
+margin-top: 20px;
+font-family: 'Maiden Orange', Merriweather;
+font-size: 2em;
+color: #ff0b55;
+}
+
 
 .lists li {
   display: inline-block;
-  padding-right: 10px;
+  }
+
+.mycats{
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  font-size: 1.5em;
+  color: #7b88ff;
+  padding-right: 15px;
+    }
+
+.learning{
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  font-size: 1.5em;
+  color: #7b88ff;
+  padding-right: 15px;
 }
 
+.garden{
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  font-size: 1.5em;
+  color: #7b88ff;
+  padding-right: 15px;
+
+}
+
+.diy{
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  font-size: 1.5em;
+  color: #7b88ff;
+  padding-right: 15px;
+}
+
+.wbsd{
+  font-family: 'Macondo+Swash+Caps', Merriweather;
+  font-size: 1.5em;
+  color: #7b88ff;
+  padding-right: 15px;
+  }
 
 /* family gallery */
 
